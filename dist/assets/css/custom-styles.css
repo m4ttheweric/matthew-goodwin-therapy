@@ -7,7 +7,7 @@ article h3 {
 }
 #main article {
    /* background-color: rgb(45 45 45 / 46%); */
-   background-color: rgb(243 243 230 / 75%);
+   background-color: rgb(243 243 230 / 80%);
    backdrop-filter: blur(25px);
    border-radius: 2px;
    font-size: 125%;
