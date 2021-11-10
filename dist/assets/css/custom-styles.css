@@ -1,3 +1,49 @@
+hr {
+   margin: 4rem 0;
+   border-color: rgb(255 255 255 / 50%);
+}
+article h3 {
+   font-size: 1.25rem;
+}
+#main article {
+   /* background-color: rgb(45 45 45 / 46%); */
+   background-color: rgb(243 243 230 / 75%);
+   backdrop-filter: blur(25px);
+   border-radius: 2px;
+   font-size: 125%;
+}
+article * {
+   color: #111 !important;
+}
+article p {
+   margin: 0 0 1.25rem 0;
+}
+article a {
+   border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+article blockquote {
+   border-left-color: #111;
+}
+article button {
+   box-shadow: none;
+   color: white !important;
+   background: rgba(68, 68, 68, 1);
+}
+article button:hover {
+   background: rgba(68, 68, 68, 0.75);
+}
+article button:active {
+   background: rgba(68, 68, 68, 0.5);
+}
+article h1.major,
+h2.major,
+h3.major,
+h4.major,
+h5.major,
+h6.major {
+   border-bottom-color: #111;
+}
+
 /* border color of main page elements */
 #header .content,
 #header nav ul,
@@ -31,12 +77,19 @@
    border-radius: 0;
    background: rgb(255 255 255 / 10%);
 }
+
 #header nav ul li a {
    min-width: auto;
    padding: 0 2rem;
+   white-space: nowrap;
+   font-size: 1rem;
 }
 #header nav.use-middle ul li.is-middle {
    border-left: inherit;
+}
+
+#main article .close:before {
+   filter: grayscale(1) brightness(0);
 }
 body.no-scroll,
 html.no-scroll {
@@ -45,10 +98,9 @@ html.no-scroll {
    width: 100%; */
 }
 
-#main article {
-   background-color: rgb(45 45 45 / 46%);
-   backdrop-filter: blur(25px);
-   border-radius: 2px;
+.image.main img {
+   border: none;
+   border-radius: 4px;
 }
 
 div.logo div.logo-img {
@@ -84,21 +136,16 @@ span.image.main.labeled::after {
    transform: translateX(50%);
    background-color: rgba(0, 0, 0, 0.6);
    padding: 2px 8px;
-   border-radius: 15px;
+   border-radius: 2px;
    margin: 0 0 6px 0;
    font-size: 75%;
    letter-spacing: 2px;
    opacity: 0.9;
+   color: white;
 }
 
 #contact-container {
    margin: 0 0 2rem 0;
-   display: flex;
-   flex-flow: column;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
-   height: 52px;
 }
 
 #show-contact-info {
