@@ -14,7 +14,7 @@
 
 $(function () {
    var ContactData = {
-      emailHref: `mailto:info@matthewgoodwintherapy.com?subject=Inquiry%20via%20Website`,
+      emailHref: `mailto:info@matthewgoodwintherapy.com?subject=Inquiry%20via%20Website&body=First%20Name%3A%0A%0ALast%20Name%3A%0A%0AMessage%3A`,
       emailDisplay: `info@matthewgoodwintherapy.com`,
       phoneHref: `tel:2066079466`,
       phoneDisplay: '206.607.9466'
