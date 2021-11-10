@@ -50,7 +50,10 @@ h6.major {
 #header nav ul li {
    border-color: rgb(255 255 255 / 50%);
 }
-#header .content,
+#header .content {
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+}
 #header nav ul {
    backdrop-filter: blur(10px);
    -webkit-backdrop-filter: blur(10px);
