@@ -1,0 +1,22 @@
+{
+   "name": "matthew-goodwin-therapy",
+   "version": "1.0.0",
+   "description": "",
+   "scripts": {
+      "deploy": "firebase deploy",
+      "firebase-login": "firebase login"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/m4ttheweric/matthew-goodwin-therapy.git"
+   },
+   "author": "Matthew Goodwin",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/m4ttheweric/matthew-goodwin-therapy/issues"
+   },
+   "homepage": "https://github.com/m4ttheweric/matthew-goodwin-therapy#readme",
+   "dependencies": {
+      "firebase-tools": "^11.0.0"
+   }
+}
